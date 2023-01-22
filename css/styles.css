@@ -181,3 +181,15 @@ body {
 div .informacoes {
     text-align: center;
 }
+
+.fundo-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background: no-repeat url("/images/imagens/FuturisticMobile.png");
+    opacity: 0.3;
+}
