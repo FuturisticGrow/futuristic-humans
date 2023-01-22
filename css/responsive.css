@@ -2,7 +2,6 @@
     body {
         background: rgb(0, 0, 0);
         font-weight: 300;
-        font-style: italic;
     }
     a .logo2 {
         margin-left: 40px;
@@ -10,12 +9,16 @@
     .fundo-video {
         display: none;
     }
+    img .mario {
+        margin-top: 400px;
+    }
     .container {
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
         gap: 30px;
         background: no-repeat url("/images/imagens/FuturisticMobile.png");
+        background-size: contain;
         width: 100%;
         background-repeat: round;
     }
@@ -29,9 +32,9 @@
         margin-top: 60px;
     }
     .container .descricao {
-        color: rgb(220, 220, 220);
+        color: white;
         letter-spacing: 1px;
-        background-color: rgba(55, 01, 15, 0.319);
+        background-color: rgba(213, 1, 29, 0.232);
         font-weight: bold;
         text-align: center;
         margin-right: 45px;
@@ -41,7 +44,10 @@
         margin-right: 10px;
     }
     .cabecalho nav li a:hover {
-        background-color: #d5011d;
+        background-color: rgb(213, 1, 29);
+    }
+    .cabecalho {
+        background-color: black;
     }
 }
 

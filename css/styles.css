@@ -40,7 +40,7 @@ body {
 /* a:hover é quando vc passa o mouse em cima do a. Hover tem essa caracteristica */
 
 .cabecalho nav li a:hover {
-    background-color: #d5011d;
+    background-color: rgb(213, 1, 29);
 }
 
 .imagem-titulo {
