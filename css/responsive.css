@@ -1,6 +1,11 @@
 @media (max-width: 1200px) {
     body {
-        background-color: #f44336;
+        background: rgb(0, 0, 0);
+        font-weight: 300;
+        font-style: italic;
+    }
+    a .logo2 {
+        margin-left: 40px;
     }
     .fundo-video {
         display: none;
@@ -10,6 +15,9 @@
         justify-content: center;
         height: auto;
         gap: 30px;
+        background: no-repeat url("/images/imagens/FuturisticMobile.png");
+        width: 100%;
+        background-repeat: round;
     }
     .container .mario {
         max-width: 50%;
@@ -18,13 +26,22 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-top: 60px;
     }
     .container .descricao {
-        color: #ffffff;
+        color: rgb(220, 220, 220);
+        letter-spacing: 1px;
+        background-color: rgba(55, 01, 15, 0.319);
+        font-weight: bold;
         text-align: center;
+        margin-right: 45px;
     }
     .container .botao-trailer {
-        background-color: #263238;
+        background-color: #d5011d;
+        margin-right: 10px;
+    }
+    .cabecalho nav li a:hover {
+        background-color: #d5011d;
     }
 }
 
@@ -32,7 +49,7 @@
     .cabecalho {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 1px;
     }
     .container .imagem-titulo {
         max-width: 75%;
@@ -51,5 +68,14 @@
     .modal #video {
         width: 250px;
         height: 140px;
+    }
+    .cabecalho {
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    .container {
+        background: no-repeat url("/images/imagens/FuturisticMobile2.png");
+        width: 100%;
+        background-repeat: round;
     }
 }

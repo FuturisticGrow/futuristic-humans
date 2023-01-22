@@ -1,13 +1,14 @@
 body {
     font-family: 'Poppins';
+    font-weight: 400;
     text-align: center;
 }
 
 .cabecalho {
-    background-color: black;
+    background-color: rgba( 0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
-    padding: 3px;
+    padding: 30px;
     max-width: 1440px;
     margin: 0 auto;
 }
