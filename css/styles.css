@@ -57,7 +57,6 @@ body {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    height: calc(100vh - 132px);
     padding: 0px, 30px, 30px;
 }
 
@@ -73,41 +72,47 @@ body {
     margin-left: 55px;
 }
 
+.descricao {
+    font-size: 10px;
+    margin-left: 50px;
+    background-color: rgba(52, 52, 50, 0.2);
+    margin: 40px;
+}
 
-/* .container .botao-trailer {
-    background-color: #4CAF50;
-    margin-top: 16px;
-    margin-right: 42px;
-    color: #ffffff;
-    padding: 15px;
-    font-size: 14px;
-    font-weight: bolder;
-    cursor: pointer;
-    border: none;
-    transition: 0.5s all ease-in-out;
-    border-radius: 12px;
-} */
-
-.container .botao-trailer {
-    display: inline-block;
-    padding: 15px;
-    margin-top: 50px;
-    margin-right: 32px;
-    margin-left: 4px;
-    transition: 0.5s all ease-in-out;
-    font-size: 14px;
+.botao-trailer {
+    letter-spacing: 0.2em;
+    padding: 10px 30px;
+    margin-right: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
     cursor: pointer;
     font-weight: bolder;
     outline: none;
-    color: #fff;
-    background-color: #d5011d;
-    border: none;
+    background: none;
     border-radius: 50px;
-    box-shadow: 0 5px #d5011d0d;
+    border: 1px solid #3498db;
+    align-items: center;
+    color: white;
+    font-family: 'Rock Salt', cursive;
 }
 
-.container .botao-trailer:hover {
-    transform: scale(1.1);
+.botao-trailer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.botao-trailer:hover {
+    letter-spacing: 0.4em;
+    background-color: #3498db;
+    transition: 0.6s;
 }
 
 .fundo-video {
@@ -189,7 +194,21 @@ div .informacoes {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    background: no-repeat url("/images/imagens/FuturisticMobile.png");
+    background: url("/images/imagens/artealbum.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     opacity: 0.3;
+}
+
+header.cabecalho {
+    max-height: 68px;
+}
+
+img.logo2 {
+    margin: -22px;
+}
+
+img.logo {
+    margin: -22px;
 }
