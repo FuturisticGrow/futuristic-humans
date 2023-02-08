@@ -194,7 +194,7 @@ div .informacoes {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    background: url("./images/imagens/artealbum.jpg");
+    background: url("../images/imagens/artealbum.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
